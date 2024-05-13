@@ -4,7 +4,7 @@ def OrderIntTab ():
     tab = []
     for i in range(15):
         a = 0
-        a = r.randint()
+        a = r.randint(0,100000000)
         tab.append(a)
     for i in range (len(tab)) :
         for j in range (0 , len(tab) - i - 1) : 
