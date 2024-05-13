@@ -4,6 +4,7 @@ def RevAlph() :
         a += chr(i)
     while a == "" :
         b += a[-1]
-        del a[-1] 
+        del a[-1]
+    print (b)
 
 RevAlph()
